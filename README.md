@@ -1,50 +1,43 @@
-# Welcome to your Expo app 👋
+# Projeto Fokus
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Esta aplicação foi desenvolvida em react-native e seu objetivo é controlar o tempo de estudo e de descanso dos alunos através dos seus modos.
 
-## Get started
+## Funcionalidades
 
-1. Install dependencies
+* **Modo foco:** um cronometro regressivo de 25 minutos que ao apertar o botão começar é destravado.
+* **Modo pausa curta:** um cronometro regressivo de 05 minutos que ao apertar o botão começar é destravado.
+* **Modo pausa longa:**um cronometro regressivo de 15 minutos que ao apertar o botão começar é destravado.
 
-   ```bash
-   npm install
-   ```
+Nos três modos ao clicar em pausar, o cronometro é pausado podendo ser retomado do tempo em que parou.
 
-2. Start the app
 
-   ```bash
-   npx expo start
-   ```
+## Tecnologias Utilizadas
 
-In the output, you'll find options to open the app in a
+* React-Native
+* JavaScript
+* Css
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Como Executar
 
-## Get a fresh project
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/MatheusA2004/Avaliacao_Mobile.git
+    ```
 
-When you're ready, run:
+2.  **Navegue até a pasta do projeto:**
+    ```bash
+    cd AvaliacaoFokus
+    ```
 
-```bash
-npm run reset-project
-```
+3.  **Instale as dependências:**
+    ```bash
+    npm i
+    ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+4.  **Execute a aplicação:**
+    ```bash
+     npm start
+    ```
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+5.  Abra seu navegador e acesse `http://localhost:8081/`.
